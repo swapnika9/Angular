@@ -1,0 +1,14 @@
+.container{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://www.ssangyongrexton.in/images/rexton-get-in-touch.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+ 
+    }
+.wrapper{
+    position: absolute;
+    top: 250px;
+    left: 390px;
+    width: 500px;
+    border-radius: 30px;
+}

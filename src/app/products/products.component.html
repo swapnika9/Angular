@@ -1,0 +1,75 @@
+
+
+
+
+<div class="container">
+<div class="card" style="margin-top: -350px;margin-left: 200px;">
+  <input type="radio" name="select" id="slide_1" checked>
+  <input type="radio" name="select" id="slide_2">
+  <input type="radio" name="select" id="slide_3">
+  <input type="checkbox" id="slideImg">
+
+  <div class="slider">
+    <label for="slide_1" class="slide slide_1"></label>
+    <label for="slide_2" class="slide slide_2"></label>
+    <label for="slide_3" class="slide slide_3"></label>
+  </div>
+
+  <div class="inner_part">
+    <label for="slideImg" class="img">
+      <img class="img_1" src="https://s3b.cashify.in/gpro/uploads/2019/07/31075837/Top10Mobiles.jpg">
+    </label>
+    <div class="content content_1">
+      <div class="title">MOBILES</div>
+      <div class="text">
+        Mobile phones are no more merely a part of our lives. Whether it's 
+        to stay connected with friends and family or to keep abreast of important developments around the world, 
+      </div>
+      <button>Read More</button>
+    </div>
+  </div>
+
+  <div class="inner_part">
+    <label for="slideImg" class="img">
+      <img class="img_2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0EL0P3O8oXwaqq-Gx_Jll4RA0ki_LWPA9bw&usqp=CAU">
+    </label>
+    <div class="content content_2">
+      <div class="title">TELEVISIONS</div>
+      <div class="text">
+        It’s hard to find a house without a television. It is that one inescapable entertainment electronic that is most commonly used by all age groups and a home 
+      </div>
+      <button>Read More</button>
+    </div>
+  </div>
+
+  <div class="inner_part">
+    <label for="slideImg" class="img">
+      <img class="img_3" src="https://img2.hkrtcdn.com/12215/bnr_1221421_o.jpg">
+    </label>
+    <div class="content content_3">
+      <div class="title">GYM PRODUCTS</div>
+      <div class="text">If you are a fitness freak and looking for some good quality tummy trimmers then you must not miss the below-mentioned choices that are picked on the basis of their features and benefits
+      </div>
+      <button>Read More</button>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<!--pills-->
+<ul class="nav nav-pills justify-content-evenly " style="margin-top: 500px;" >
+  <li class="nav-item"  style="margin-top: 100px;">
+    <a class="button nav-link"  routerLink="mobiles" routerLinkActive='active'>Mobiles</a>
+  </li>
+  <li class="nav-item"  style="margin-top: 100px;">
+    <a class="button nav-link" routerLink="televisions" routerLinkActive='active'>Televisions</a>
+  </li>
+  <li class="nav-item"  style="margin-top: 100px;">
+    <a class="button nav-link" routerLink="gympro" routerLinkActive='active'>Gympro</a>
+  </li>
+</ul>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

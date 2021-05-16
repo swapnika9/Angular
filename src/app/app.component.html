@@ -1,0 +1,41 @@
+<div class="navigation">
+<nav class="navbar navbar-expand-lg navbar-light bg-light p-2">
+  <div class="container-fluid">
+    <div class="img">
+      <img src="https://www.logo.wine/a/logo/Shopify/Shopify-Logo.wine.svg" alt=" " width="230px" height="80px"/>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="home" routerLinkActive='active'><h5><i id="icon" class="fas fa-home"></i> Home</h5></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ms-4" routerLink="register" routerLinkActive='active'><h5><i id="icon" class="fas fa-registered"></i> Register</h5></a>
+        </li>
+       
+        <li class="nav-item">
+          <a class="nav-link ms-4" routerLink="login" routerLinkActive='active'><h5><i id='icon' class="fas fa-sign-in-alt"></i> Login</h5></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ms-4" routerLink="contactus"routerLinkActive='active' ><h5><i id="icon" class="fas fa-id-card-alt"></i> ContactUs</h5></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ms-4" routerLink="products" routerLinkActive='active'><h5><i id='icon' class="fab fa-product-hunt"></i> Products</h5></a>
+        </li>
+  
+       
+      </ul>  </div></div></nav>
+      </div>
+<!--create product component-->
+<div class="container">
+<router-outlet></router-outlet>
+</div>
+<!--create footer component-->
+<div style="position: absolute; bottom:0px; width: 100%;">
+<app-footer></app-footer>
+</div>
+
+

@@ -1,0 +1,119 @@
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 50px;
+    font-size: 30px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+
+  .link{
+      margin-top: -20px;
+      font-size: 25px;
+  }
+  .images { margin-left: 150px; }
+  
+  hr.style1 {
+      color: black;
+      margin-top: 100px;
+  }
+  hr.style2{
+      margin-top: 50px;
+  }
+  .btn{
+      margin-top:15px ;
+      margin-bottom: 50px;
+      
+      font-size: 20px;
+  }
+  .l1,.l2,.l3{
+      margin-top: -80px;
+  }
+  .img1:hover{
+    width: 500px;
+  }
+.item{
+  text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 50px;
+    text-shadow: 2px 2px #ff0000;
+}
+.inner{
+  overflow: hidden;
+}
+.inner:hover{
+  transition: all 1.5s ease;
+}
+.inner:hover img{
+  transform: scale(1.5);
+}
+   /* .btn{
+    border: 2px solid black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    font-size: 24px;
+    font-family: sans-serif;
+    transition: all .5s;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    }
+
+.btn:before{
+        width: 100%;
+        height: 100%;
+        content: '';
+        margin: auto;
+        position: absolute;
+        top:  0%;
+        left: 0%;
+        background: #0f990b;
+        transition: all .5s;
+        z-index: -1;
+        
+    }
+.btn:after{
+        width: 100%;
+        height: 100%;
+        content: '';
+        margin: auto;
+        position: absolute;
+        top:  0%;
+        left: 0%;
+        background: #212121;
+        transition: all .5s;
+        z-index: -1;
+        
+}
+.btn:hover{
+    color: #212121;
+}
+.btn:hover:before{			
+        transform: rotateX(90deg);
+
+}
+.btn:hover:after{
+        transform: rotateY(90deg);
+
+} */

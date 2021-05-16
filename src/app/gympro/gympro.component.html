@@ -1,0 +1,12 @@
+<div class=" text-black " style="text-align: end;">
+    <h2 style="margin-top: 50px;"><i id="icon" class="fas fa-cart-plus" ></i>  {{productCount}}</h2>
+  <h6 class="text-primary">PRODUCTS ADDED :</h6>
+   <span *ngFor="let title of productsSentByChild" style="color: black;"><h6> {{title}},</h6></span>
+   </div>
+   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-5 mt-3 mb-2" >
+       <div class="col" *ngFor="let gymObj of gympro">
+           <app-product-details [productobj]=gymObj (myEvent)=" getProductDetailsFromChild($event)"></app-product-details>
+       </div>
+   </div><br><br><br><br>
+
+
